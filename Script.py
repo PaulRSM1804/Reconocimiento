@@ -10,8 +10,8 @@ from tflearn.layers.conv import conv_2d, max_pool_2d
 from tflearn.layers.core import input_data, dropout, fully_connected
 from tflearn.layers.estimator import regression
 # matplotlib inline
-TRAIN_DIR = "C:/Users/pauls/OneDrive/Escritorio/archivosIA/DeberTensorFlow_Cruz_Castillo/entrenamiento"
-TEST_DIR = "C:/Users/pauls/OneDrive/Escritorio/archivosIA/DeberTensorFlow_Cruz_Castillo/prueba"
+TRAIN_DIR = "C:/Users/pauls/OneDrive/Escritorio/archivosIA/Identificador/entrenamiento"
+TEST_DIR = "C:/Users/pauls/OneDrive/Escritorio/archivosIA/Identificador/prueba"
 IMG_SIZE = 100
 LR = 1e-3
 MODEL_NAME = 'carro-vs-moto-convnet'
